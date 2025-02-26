@@ -17,4 +17,4 @@ jobs:
       - name: Build
         run: |
           cd TestProject
-          xcodebuild build
+          xcodebuild build -allowProvisioningUpdates
