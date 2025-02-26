@@ -16,4 +16,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Build
         run: |
-           xcodebuild build
+          cd TestProject
+          xcodebuild build
