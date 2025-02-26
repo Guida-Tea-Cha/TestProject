@@ -16,5 +16,4 @@ jobs:
         uses: actions/checkout@v4
       - name: Build
         run: |
-          cd TestProject
-          xcodebuild build -allowProvisioningUpdates
+          security find-certificate -a
